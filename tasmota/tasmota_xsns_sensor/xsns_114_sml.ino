@@ -352,20 +352,26 @@ bool XSNS_114_cmd(void)
 // Interface
 //###################################################################
 
+//###################################################################
+// namespace
+//###################################################################
+ }
+
+
 bool Xsns114( uint32_t function )
  {
   bool result = false;
   switch( function )
    {
     case FUNC_INIT:
-      XSNS_114_Init();
+      XSML::XSNS_114_Init();
       break;
     case FUNC_COMMAND_SENSOR:
       if( XSNS_114 == XdrvMailbox.index )
-        result = XSNS_114_cmd();
+        result = XSML::XSNS_114_cmd();
       break;
     case FUNC_LOOP:
-      XSNS_114_Loop();
+      XSML::XSNS_114_Loop();
       break;
     default:
       break;
@@ -414,10 +420,6 @@ bool Xsns114( uint32_t function )
   return result;
  }
 
-//###################################################################
-// namespace
-//###################################################################
- }
 
 #endif  // USE_XSML_M
 
