@@ -1,0 +1,24 @@
+~/VSCode-linux-x64/data/Tasmota/MyInfos.txt
+
+####
+Nach Orig-Update
+
+git status
+Auf Branch development
+Ihr Branch ist auf demselben Stand wie 'origin/development'.
+
+Änderungen, die nicht zum Commit vorgemerkt sind:
+  (benutzen Sie "git add <Datei>...", um die Änderungen zum Commit vorzumerken)
+  (benutzen Sie "git restore <Datei>...", um die Änderungen im Arbeitsverzeichnis zu verwerfen)
+	geändert:       .vscode/settings.json
+	geändert:       pio-tools/add_c_flags.py
+	geändert:       pio-tools/my_post_extra_script.py
+	geändert:       platformio.ini
+	geändert:       tasmota/tasmota_xsns_sensor/xsns_114_sml.ino
+
+Unversionierte Dateien:
+  (benutzen Sie "git add <Datei>...", um die Änderungen zum Commit vorzumerken)
+	tasmota/include/Crc.hpp
+
+keine Änderungen zum Commit vorgemerkt (benutzen Sie "git add" und/oder "git commit -a")
+
